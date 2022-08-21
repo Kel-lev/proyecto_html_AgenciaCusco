@@ -1,3 +1,52 @@
+a   {
+    color: aliceblue;
+}
 body{
     background-color: brown;
 }
+main{
+    text-align: center; /*alineacion de texto*/
+}
+
+
+p{
+    color: aliceblue;
+    font: optional;
+}
+.post{
+    background-color: black;
+    height: 450px ;
+    width: 500px;
+}
+
+.titulo{
+    color: rgb(255, 187, 0);
+    
+}
+
+.textoPaquetes{
+    font-family: monospace;
+}
+.textoPaquetes1{
+    font-family: monospace;
+    text-align: left;
+}
+.textoTiempo{
+    font-family: monospace;
+    text-align: inherit;
+}
+.iconoHora{
+    color: rgb(255, 187, 0);
+    margin-left: -400px;
+} 
+
+.iconoLenguaje{
+    color: rgb(255, 187, 0);
+    margin-left: -400px;
+    margin-top: 10px;
+} 
+.iconoCosto{
+    color: rgb(255, 187, 0);
+    margin-left: -400px;
+    margin-top: 10px;
+} 

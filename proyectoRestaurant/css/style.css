@@ -11,15 +11,14 @@ h4 {
     font-weight: 700;
 }
 header {
-    padding: 20px 0 0 0;
+    padding: 20px 0 20px 0;
     background: #1d2124;
     text-align: center;
-    display: flex;
 }
 
 @media (min-width : 750px) {
     header {
-        text-align: left;
+        text-align: right;
     }
 }
 
@@ -30,13 +29,15 @@ header {
     text-decoration: none;
     color:rgb(71, 71, 71);
     font-weight: bold;
-
 }
 
 ul {
     list-style: none;
 }
 
+.four-columns{
+    display: flex;
+}
 .hero {
     background-image: url(../img/hero.jpg);
     background-size: 1050px,50px;
@@ -77,6 +78,7 @@ ul {
 .contenido-hero {
     margin-top: 80px;
     color: white;
+    
 }
 .contenido-hero form {
     position: relative;
@@ -85,6 +87,7 @@ ul {
 .contenido-hero form #buscador {
     height: 50px;
     margin-bottom: 0;
+    
 }
 .contenido-hero form .submit-buscador {
     position: absolute;
@@ -92,7 +95,7 @@ ul {
     top: 0;
     height: 100%;
     padding: 0;
-    display: flex;
+    
     text-indent: -9999px;
     width: 50px;
     background-image: url(../img/lupa.png);
@@ -113,14 +116,14 @@ ul {
 .icono {
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 60px;
+    padding-left: 0px;
     background-size: 30px;
     margin-bottom: 40px;
     text-align: center;
 }
 @media (min-width: 750px) {
     .icono1 {
-        margin-bottom: 0;
+        margin-bottom: 15px;
     }
 }
 
@@ -133,6 +136,7 @@ ul {
 
 #lista-platillos .row { /* flex direction*/
     margin-bottom: 20px;
+    
 }
 .agregar-carrito{
     margin: 10px 0;
@@ -169,12 +173,6 @@ ul {
     font-size: 22px;
 }
 
-.footer {
-    margin-top: 40px;
-    padding-top: 40px;
-    background: #1d2124;
-}
-
 .grid-container{
     display: grid;
     grid-template-columns: auto;
@@ -187,3 +185,9 @@ ul {
     border: 1px solid grey;
 
 }
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #1d2124;
+}
+

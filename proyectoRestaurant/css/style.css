@@ -38,6 +38,7 @@ ul {
 .four-columns{
     display: flex;
 }
+
 .hero {
     background-image: url(../img/hero.jpg);
     background-size: 1050px,50px;

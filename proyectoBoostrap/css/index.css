@@ -8,3 +8,15 @@
  height: 100%;
 }
 
+
+#flex {
+    column-count: 2;
+    column-gap: 3rem;/*espacio en columnas*/
+    column-rule: 1px solid #bbb;
+    column-width: 350px;
+    column-fill: auto;/*ordenar el texto*/
+}
+
+.container {
+    height: auto;
+}
